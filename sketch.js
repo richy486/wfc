@@ -3,10 +3,11 @@ let sourceImage; // Declare variable 'img'.
 let resultImage;
 let success;
 
-// https://www.piskelapp.com/
+// make maps with https://www.piskelapp.com/
+// run with python -m http.server
 
 function preload() {
-  sourceImage = loadImage('assets/map6.png');
+  sourceImage = loadImage('assets/map16.png');
 }
 
 
